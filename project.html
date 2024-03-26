@@ -1,0 +1,204 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; /* Creates a circle */
+            overflow: hidden; /* Hide overflowing content */
+            margin: 10px;
+            position: relative;
+        }
+        .circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the image fills the circle */
+        
+        }
+        body {
+            text-align: center;
+            background-color: black;
+            font-family: Courier New;
+        }
+        .container {
+            text-align: left;
+            margin-top: 200px;
+            margin-left: 200px;
+            display: flex;
+        }
+        h1 {
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            font-style: italic;
+        }
+        h2 {
+            color: white;
+            font-size: 24px;
+            font-style: italic;
+        }
+        .centered-image {
+            display: flex;
+            flex-direction: column; /* To stack the image below the text */
+            align-items: flex-start; /* To align the image to the right */
+            margin-right: 20px; /* Add a margin to separate the image from the text */
+        }
+        nav{
+            background-color:#e5e4de;
+            padding: 15px;
+            font-size: 20px;
+        }
+        nav a{
+            color:rgb(7, 5, 5);
+            text-align:center;
+            cursor:pointer;
+            border-left:1px solid rgb(9, 9, 9);
+            text-decoration:transparent;
+            padding:10px 25px;
+            display:inline-block;
+        }
+        nav a:hover{
+            background-color: lightgray;
+            color:rgb(22, 37, 207);
+        }
+    </style>
+</head>
+<body><nav>
+    <a href="/">HOME</a>
+    <a href="/frontpage">SIGNUP</a>
+    <a href="/frontpage2">LOGIN</a>
+    <a href="/homepage">TRY IT</a>
+    <a href="/contact">CONTACT</a>
+</nav>
+
+    <div class="container">
+        <div class="circle">
+            <img src="myimage.jpg" alt="My Image">
+        </div>
+        <div class="circle">
+            <img src="habit1.jpg" alt="Habit 1">
+        </div>
+        <div class="circle">
+            <img src="habit2.jpg" alt="Habit 2">
+        </div>
+        <header>
+            <h2 style="font-family: stencil, serif ;text-align:center;" >PORTFOLIO</h2>
+        </header>
+        <div class="container">
+            <h1>Lavanya Bandi</h1>
+            <div class="centered-image">
+                <img src="myimage.jpg" alt="Right Aligned Image"width="1000" height="1000">
+            </div>
+        </div>
+        Add more circles for additional habits as needed 
+    </div>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY PROJECT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        header {
+            background: linear-gradient( rgb(210, 119, 34), black);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1 {
+            font-size: 32px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: rgb(210, 119, 34);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(52, 41, 41, 0.1);
+            display: flex;
+        }
+        .project-info {
+            flex: 1; /* Use flex to make project-info take up remaining space */
+            text-align: left;
+            padding: 20px;
+        }
+        .project-image {
+            padding: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        nav {
+            background-color: black;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            border-left: 1px solid white;
+            text-decoration: none; /* Change to 'none' for no underline */
+            padding: 10px 25px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: lightgray;
+            color: rgb(186, 98, 17);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: stencil, serif; text-align: center;"
+        >MY PROJECT</h1>
+    </header>
+    <nav>
+        <a href="home.html">ABOUT</a>
+        <a href="academics.html">ACADEMICS</a>
+        <a href="project.html">PROJECTS</a>
+        <a href="certifications.html">CERTIFICATIONS</a>
+        <a href="more.html">MORE</a>
+        <a href="contact.html">CONTACT</a>
+        
+    </nav>
+    <div class="container">
+        <div class="project-image">
+            <img src="logo2.jpeg" alt="Handwriting Recognition Project">
+        </div>
+        <div class="project-info">
+            <h1>"Handwriting Recognition Website<h1>
+            <h2>About the Project</h2>
+            <p>
+                "Handwriting Recognition website recognizes the writeen text and gives the digital text of that written text ass the output."  
+            </p>
+            <h2>Key Features</h2>
+            <ul>
+                <li>Feature 1: <b>EASY TO USE-</b>Our simple interface makes it easy to recognize your handwritten effortlessly .</li>
+                <li>Feature 2: <b>OFFLINE ACCESS-</b>This website will work in online and offline also.</li>
+                <li>Feature 3: <b>HIGH-SPEED RECOGNITION-</b>Our advancced algorithims ensure fast and accurate handwriting recognition.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
